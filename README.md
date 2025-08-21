@@ -20,8 +20,13 @@ TeamsのメンションもHTML形式で<at>タグでメンションするよう�
 Excel onlineで問合せを管理していく中で、フィルターをしたまま保存されるとフローがテーブル行に挿入出来ないため失敗することがありました。
 実行失敗してもメール送信が可能になるように開発。
 Excelのお問合せ文章がセルから見切れることがほとんどだったため、
-Officeスクリプト「プログラミング言語としてJavaScript（TypeScript）を使う」で
+Officeスクリプト「プログラミング言語としてJavaScript（TypeScript）」で
 テーブル行の高さを自動調整するコードとボタンも設置していました。
+サンプルをコード
+function main(workbook: ExcelScript.Workbook) {
+workbook.getWorksheet(シート名).getRange(行).getFormat().autofitRows();
+}
+セルをダブルクリックすると調整してくれる実装です。
 Excelにデータが溜まるので、COUNTIF関数で集計が自動で行われる、
 データが自動で追加、追加されたデータも自動で集計を実現しました。
 これにより、何のお問合せが何件あったのか集計する時間は必要なくなりました。
