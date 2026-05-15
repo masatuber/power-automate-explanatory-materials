@@ -1,12 +1,13 @@
 # power-automate-explanatory-materials
 ![PA開発したフロー説明](https://github.com/user-attachments/assets/3196a2c1-b942-46ff-98af-a28e443d3adb)
 
-```
 
 【実務でのPowerAutomateクラウド開発経緯】
 ※前提条件　Microsoft　office　365ビジネス利用　
 コロナ対応窓口のフローを引き継ぎ、DX推進の方よりPowerAutomateの基本を教えて頂きました。
 そこで、勉強のみならず過去に社内利用していたintra-martの申請やお問合せをPowerAutomateで自動化するプロジェクトを実現しました。
+DXが必要な人の役に立ちたい思いからフリーランス活動始めました。(ココナラ）
+https://coconala.com/services/3728537
 
 【要件について】
 最低現欲しい機能を要件で聞きました。
@@ -48,4 +49,3 @@ intra-martで運用していた時より汎用性、効率化がかなり進み�
 更新を自動化、ダウンロードして日付にリネームし所定のフォルダに自動で移動するフローも依頼があり開発と運用をしていました。
 ほぼ手作業がなく1分以内で完了していました。
 
-```
